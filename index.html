@@ -9,21 +9,98 @@
 <body>
     <div class="container">
         <h1>GATE Exam Preparation Checklist</h1>
-        <ul class="checklist">
-            <li><input type="checkbox" id="topic1"><label for="topic1">Discrete Mathematics</label></li>
-            <li><input type="checkbox" id="topic2"><label for="topic2">Linear Algebra</label></li>
-            <li><input type="checkbox" id="topic3"><label for="topic3">Calculus</label></li>
-            <li><input type="checkbox" id="topic4"><label for="topic4">Probability</label></li>
-            <li><input type="checkbox" id="topic5"><label for="topic5">Digital Logic</label></li>
-            <li><input type="checkbox" id="topic6"><label for="topic6">Computer Organization and Architecture</label></li>
-            <li><input type="checkbox" id="topic7"><label for="topic7">Programming and Data Structures</label></li>
-            <li><input type="checkbox" id="topic8"><label for="topic8">Algorithms</label></li>
-            <li><input type="checkbox" id="topic9"><label for="topic9">Theory of Computation</label></li>
-            <li><input type="checkbox" id="topic10"><label for="topic10">Compiler Design</label></li>
-            <li><input type="checkbox" id="topic11"><label for="topic11">Operating Systems</label></li>
-            <li><input type="checkbox" id="topic12"><label for="topic12">Databases</label></li>
-            <li><input type="checkbox" id="topic13"><label for="topic13">Computer Networks</label></li>
-        </ul>
-    </div>
-</body>
-</html>
+        <div class="month">
+            <h2>Month 1: Foundation and Core Concepts</h2>
+            <div class="week">
+                <h3>Week 1: Engineering Mathematics</h3>
+                <ul class="checklist">
+                    <li><input type="checkbox" id="week1-day1"><label for="week1-day1">Days 1-3: Discrete Mathematics: Propositional and first-order logic, sets, relations, functions</label></li>
+                    <li><input type="checkbox" id="week1-day2"><label for="week1-day2">Days 4-5: Groups, graphs: connectivity, matching, coloring</label></li>
+                    <li><input type="checkbox" id="week1-day3"><label for="week1-day3">Days 6-7: Combinatorics: counting, recurrence relations, generating functions</label></li>
+                </ul>
+            </div>
+            <div class="week">
+                <h3>Week 2: Engineering Mathematics</h3>
+                <ul class="checklist">
+                    <li><input type="checkbox" id="week2-day1"><label for="week2-day1">Days 1-2: Linear Algebra: Matrices, determinants, system of linear equations, eigenvalues, and eigenvectors</label></li>
+                    <li><input type="checkbox" id="week2-day2"><label for="week2-day2">Days 3-4: Calculus: Limits, continuity, differentiability, maxima and minima, integration</label></li>
+                    <li><input type="checkbox" id="week2-day3"><label for="week2-day3">Days 5-7: Probability: Random variables, distributions, mean, median, mode, standard deviation, Bayes theorem</label></li>
+                </ul>
+            </div>
+            <div class="week">
+                <h3>Week 3: Digital Logic</h3>
+                <ul class="checklist">
+                    <li><input type="checkbox" id="week3-day1"><label for="week3-day1">Days 1-3: Boolean algebra, combinational and sequential circuits, minimization</label></li>
+                    <li><input type="checkbox" id="week3-day2"><label for="week3-day2">Days 4-5: Number representations and computer arithmetic (fixed and floating point)</label></li>
+                    <li><input type="checkbox" id="week3-day3"><label for="week3-day3">Days 6-7: Practice problems and previous year questions</label></li>
+                </ul>
+            </div>
+            <div class="week">
+                <h3>Week 4: Computer Organization and Architecture</h3>
+                <ul class="checklist">
+                    <li><input type="checkbox" id="week4-day1"><label for="week4-day1">Days 1-3: Machine instructions and addressing modes, ALU, data-path, and control unit</label></li>
+                    <li><input type="checkbox" id="week4-day2"><label for="week4-day2">Days 4-5: Instruction pipelining, memory hierarchy (cache, main memory, secondary storage)</label></li>
+                    <li><input type="checkbox" id="week4-day3"><label for="week4-day3">Days 6-7: I/O interface (interrupt and DMA mode), practice problems</label></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="month">
+            <h2>Month 2: Core Concepts and Programming</h2>
+            <div class="week">
+                <h3>Week 1: Programming and Data Structures</h3>
+                <ul class="checklist">
+                    <li><input type="checkbox" id="week5-day1"><label for="week5-day1">Days 1-2: Programming in C/C++, pointers, recursion</label></li>
+                    <li><input type="checkbox" id="week5-day2"><label for="week5-day2">Days 3-4: Arrays, stacks, queues</label></li>
+                    <li><input type="checkbox" id="week5-day3"><label for="week5-day3">Days 5-7: Linked lists, trees, binary search trees, binary heaps, graphs</label></li>
+                </ul>
+            </div>
+            <div class="week">
+                <h3>Week 2: Algorithms</h3>
+                <ul class="checklist">
+                    <li><input type="checkbox" id="week6-day1"><label for="week6-day1">Days 1-2: Analysis, asymptotic notation, recurrences</label></li>
+                    <li><input type="checkbox" id="week6-day2"><label for="week6-day2">Days 3-4: Design techniques: greedy, dynamic programming, divide-and-conquer</label></li>
+                    <li><input type="checkbox" id="week6-day3"><label for="week6-day3">Days 5-7: Graph algorithms: shortest paths, minimum spanning tree; searching, sorting, hashing</label></li>
+                </ul>
+            </div>
+            <div class="week">
+                <h3>Week 3: Theory of Computation</h3>
+                <ul class="checklist">
+                    <li><input type="checkbox" id="week7-day1"><label for="week7-day1">Days 1-2: Regular languages and finite automata</label></li>
+                    <li><input type="checkbox" id="week7-day2"><label for="week7-day2">Days 3-4: Context-free languages and pushdown automata</label></li>
+                    <li><input type="checkbox" id="week7-day3"><label for="week7-day3">Days 5-7: Turing machines, undecidability, practice problems</label></li>
+                </ul>
+            </div>
+            <div class="week">
+                <h3>Week 4: Compiler Design</h3>
+                <ul class="checklist">
+                    <li><input type="checkbox" id="week8-day1"><label for="week8-day1">Days 1-2: Lexical analysis, parsing</label></li>
+                    <li><input type="checkbox" id="week8-day2"><label for="week8-day2">Days 3-4: Syntax-directed translation, runtime environments</label></li>
+                    <li><input type="checkbox" id="week8-day3"><label for="week8-day3">Days 5-7: Intermediate code generation, practice problems</label></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="month">
+            <h2>Month 3: Advanced Topics and Practice</h2>
+            <div class="week">
+                <h3>Week 1: Operating Systems</h3>
+                <ul class="checklist">
+                    <li><input type="checkbox" id="week9-day1"><label for="week9-day1">Days 1-2: Processes, threads, inter-process communication</label></li>
+                    <li><input type="checkbox" id="week9-day2"><label for="week9-day2">Days 3-4: Concurrency, synchronization, deadlock, CPU scheduling</label></li>
+                    <li><input type="checkbox" id="week9-day3"><label for="week9-day3">Days 5-7: Memory management, virtual memory, file systems, practice problems</label></li>
+                </ul>
+            </div>
+            <div class="week">
+                <h3>Week 2: Databases</h3>
+                <ul class="checklist">
+                    <li><input type="checkbox" id="week10-day1"><label for="week10-day1">Days 1-2: ER-model, relational model (relational algebra, tuple calculus)</label></li>
+                    <li><input type="checkbox" id="week10-day2"><label for="week10-day2">Days 3-4: Database design (integrity constraints, normal forms)</label></li>
+                    <li><input type="checkbox" id="week10-day3"><label for="week10-day3">Days 5-7: Query languages (SQL), file organization, indexing (B and B+ trees), practice problems</label></li>
+                </ul>
+            </div>
+            <div class="week">
+                <h3>Week 3: Computer Networks</h3>
+                <ul class="checklist">
+                    <li><input type="checkbox" id="week11-day1"><label for="week11-day1">Days 1-2: Concept of layering, LAN technologies (Ethernet)</label></li>
+                    <li><input type="checkbox"
